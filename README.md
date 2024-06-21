@@ -1,42 +1,46 @@
-# Authoring Tool Plugin for Moodle
+# CogniSpark Authoring Tool Plugin for Moodle
 
-The Authoring Tool plugin is a local plugin for Moodle that provides additional functionality for authoring and managing course content platform
+The CogniSpark plugin is a local plugin for Moodle that provides integration between the CogniSpark platform and Moodle. This integration allows Moodle users to utilize the CogniSpark platform by clicking on the CogniSpark link. The CogniSpark platform offers the following features:
 
-## Features
+1. **Course Authoring**: Create courses manually or with AI in minutes, utilizing a comprehensive authoring tool.
+2. **Media Studio**: Create audio, video, images, translations, and content using Generative AI.
+3. **AI Tutor/Assistant**: Create an AI Tutor to support your students in learning.
 
-- [List the main features and capabilities of the plugin here]
+CogniSpark is not just a regular eLearning Authoring Tool. It is a set of AI-powered tools that help create, assist, and integrate course content for course creators, instructional designers, learning and development experts, and educators. It provides a quick and easy solution to become 10x more productive with 7x less cost.
 
+## How?
 
-## Installation
+A regular authoring tool lets you create comprehensive courses from scratch, while our AI-Powered Authoring Tool generates a full course with 50 slides, including videos with a human-like spokesperson and images. Our AI Authoring Tool includes inbuilt features such as a screen recorder, course templates, translation, voiceovers, and gamification options for quizzes and simulations.
 
-1. Download the plugin from the Moodle plugins directory or from the official repository.
-2. Extract the plugin folder and rename it to `authoringtool`.
-3. Copy the `authoringtool` folder into the `local` directory of your Moodle installation.
-4. Log in to your Moodle site as an administrator.
-5. Go to Site Administration > Notifications and install the plugin.
+## Exciting Features
 
-## Usage
+### Unlock the Future of e-Learning with:
+- **AI-Powered Course Creation**: Craft engaging courses effortlessly with AI-driven tools.
+- **AI Tutor**: Provide personalized learning experiences with an intelligent AI tutor.
+- **Interactive Quizzes**: Boost engagement with interactive quizzes and assessments.
+- **Course Translation**: Break language barriers with seamless course translation capabilities.
+- **Easy Course Conversion**: Convert your PPTs and PDFs into dynamic courses with ease.
+- **Seamless Embedding**: Integrate courses directly into your LMS for a smooth user experience.
+- **Cloud Storage**: Securely store and access your courses with reliable cloud storage solutions.
+- **SCORM Export**: Support for SCORM v1.2 and v2004 for wide compatibility.
+- **Cross-Platform SCORM Content**: Ensure your SCORM content is compatible with any LMS.
+- **AI Spokesperson Video Generator**: Create engaging video content with AI-generated spokespeople.
+- **AI Voiceover**: Add professional voiceovers to your courses with our AI tool.
+- **AI Translator Tool**: Instantly translate course content to multiple languages.
+- **AI Content Generator**: Generate rich, compelling content effortlessly with AI.
+- **AI Text to Image**: Enhance your courses with AI-generated images from text.
 
-[Provide instructions on how to use the plugin, including any configuration settings or user interface explanations.]
+### Get Started with Free Welcome Credits! 🎉
+Transform your e-learning experience with cutting-edge AI features designed to make course creation and management easier, more interactive, and globally accessible.
 
-## Contributing
+## Useful Links
+Website: [CogniSpark](https://www.cognispark.ai/)
 
-If you would like to contribute to the development of this plugin, please follow these steps:
+## Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fFb4AW2B0FE?si=52aHEmnYL08zh24F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-1. Fork the repository on GitHub.
-2. Create a new branch for your changes.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your forked repository.
-5. Submit a pull request to the main repository.
-
-## License
-
-This plugin is released under the GNU General Public License v3 or later. See the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you encounter any issues or have questions about the plugin, please create a new issue on the [GitHub repository](https://github.com/your-repo/authoringtool).
-
-## Credits
-
-The Authoring Tool plugin was developed by [Your Name or Organization] with contributions from the Moodle community.
+## Screenshots
+![CogniSpark Screenshot 1](images/screenshot1.png)
+![CogniSpark Screenshot 2](images/screenshot2.png)
+![CogniSpark Screenshot 3](images/screenshot3.png)
+![CogniSpark Screenshot 4](images/screenshot4.png)
