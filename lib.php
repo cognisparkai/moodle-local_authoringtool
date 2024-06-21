@@ -44,6 +44,6 @@ function local_authoringtool_render_navbar_output(\renderer_base $renderer) {
     return $renderer->render_from_template('local_authoringtool/nav', [
         'image' => $renderer->image_url('icon', 'local_authoringtool'),
         'link' => new moodle_url('/local/authoringtool/redirect.php'),
-        'title' => get_string('pluginname', 'local_authoringtool'),
+        'title' => get_string('name', 'local_authoringtool'),
     ]);
 }

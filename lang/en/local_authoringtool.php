@@ -24,5 +24,6 @@
  */
 
 $string['pluginname'] = 'Cognispark Authoring Tool';
+$string['name'] = 'Cognispark';
 $string['enablelink'] = 'Enable custom link';
 $string['enablelink_desc'] = 'Enable or disable the custom link in the navigation menu.';

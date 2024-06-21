@@ -30,7 +30,7 @@ global $USER, $CFG;
 $ssourl     = optional_param('url', 'https://app.cognispark.ai/', PARAM_TEXT);
 $email      = $USER->email;
 $uid = $USER->id;
-$secretkey = "Paradiso@123";
+$secretkey = "MElik3476PoHe";
 $timestamp  = time();
 $salttoken = md5($timestamp . $email . $secretkey);
 $role = "student";
