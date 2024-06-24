@@ -37,7 +37,7 @@ Transform your e-learning experience with cutting-edge AI features designed to m
 Website: [CogniSpark](https://www.cognispark.ai/)
 
 ## Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fFb4AW2B0FE?si=52aHEmnYL08zh24F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://www.youtube.com/embed/fFb4AW2B0FE?si=52aHEmnYL08zh24F
 
 ## Screenshots
 ![CogniSpark Screenshot 1](images/screenshot1.png)
