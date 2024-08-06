@@ -28,4 +28,4 @@ $plugin->component = 'local_authoringtool'; // Full name of the plugin.
 $plugin->version   = 2023051001; // The current module version (Date: YYYYMMDDXX).
 $plugin->requires  = 2017041900; // Requires this Moodle version.
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = 'v1.0';
+$plugin->release   = '1.1';
