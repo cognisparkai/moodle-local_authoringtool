@@ -24,8 +24,6 @@
 
 namespace local_authoringtool\privacy;
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * Privacy Subsystem for local_authoringtool implementing provider.
  *
@@ -40,7 +38,9 @@ class provider implements \core_privacy\local\metadata\provider {
      * @param   collection     $collection     The collection to add metadata to.
      * @return  collection     $collection     The collection to update.
      */
-    public static function get_metadata(\core_privacy\local\metadata\collection $collection) : \core_privacy\local\metadata\collection {
+    public static function get_metadata(
+        \core_privacy\local\metadata\collection $collection
+    ): \core_privacy\local\metadata\collection {
         $collection->add_external_location_link(
             'cognispark.ai',
             [
