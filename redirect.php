@@ -27,10 +27,15 @@ require_once(__DIR__ . '/../../config.php');
 require_login();
 
 global $USER, $CFG;
-$ssourl     = optional_param('url', 'https://app.cognispark.ai/', PARAM_TEXT);
+
+$ssourl = get_config('local_authoringtool', 'sso_url');
+$secretkey = get_config('local_authoringtool', 'secret_key');
+if (empty($secretkey)) {
+    throw new moodle_exception('Secret key not configured');
+}
+
 $email      = $USER->email;
 $uid = $USER->id;
-$secretkey = "MElik3476PoHe";
 $timestamp  = time();
 $salttoken = md5($timestamp . $email . $secretkey);
 $role = "student";

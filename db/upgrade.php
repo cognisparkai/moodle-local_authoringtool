@@ -15,17 +15,37 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details.
+ * Upgrade script for the local_authoringtool plugin.
  *
  * @package    local_authoringtool
  * @copyright  2024 support@cognispark.ai
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
+/**
+ * Function to upgrade the local_authoringtool plugin.
+ *
+ * @param int $oldversion The old version of the plugin
+ * @return bool True if upgrade succeeds
+ */
+function xmldb_local_authoringtool_upgrade($oldversion) {
+    global $DB;
 
-$plugin->component = 'local_authoringtool'; // Full name of the plugin.
-$plugin->version   = 2023051003; // The current module version (Date: YYYYMMDDXX).
-$plugin->requires  = 2017041900; // Requires this Moodle version.
-$plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.1';
+    $plugin = 'local_authoringtool';
+
+    if ($oldversion < 2023051003) {
+        // Set SSO URL if not already set.
+        if (!get_config($plugin, 'sso_url')) {
+            set_config('sso_url', 'https://app.cognispark.ai/', $plugin);
+        }
+
+        // Set secret key if not already set.
+        if (!get_config($plugin, 'secret_key')) {
+            set_config('secret_key', 'MElik3476PoHe', $plugin);
+        }
+
+        upgrade_plugin_savepoint(true, 2023051003, 'local', 'authoringtool');
+    }
+
+    return true;
+}

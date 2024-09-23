@@ -15,17 +15,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details.
+ * Installation script for local_authoringtool plugin.
  *
  * @package    local_authoringtool
  * @copyright  2024 support@cognispark.ai
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$plugin->component = 'local_authoringtool'; // Full name of the plugin.
-$plugin->version   = 2023051003; // The current module version (Date: YYYYMMDDXX).
-$plugin->requires  = 2017041900; // Requires this Moodle version.
-$plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.1';
+/**
+ * Installs the local_authoringtool plugin by setting up the initial configuration.
+ *
+ * This function sets the SSO URL and secret key for the local_authoringtool plugin.
+ */
+function xmldb_local_authoringtool_install() {
+    $plugin = 'local_authoringtool';
+    // Set SSO URL.
+    set_config('sso_url', 'https://app.cognispark.ai/', $plugin);
+    // Set secret key.
+    set_config('secret_key', 'MElik3476PoHe', $plugin);
+}
